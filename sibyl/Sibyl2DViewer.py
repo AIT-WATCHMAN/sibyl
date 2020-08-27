@@ -33,7 +33,7 @@ class Sibyl2DViewer(gl.GLViewWidget):
     def _init_camera(self):
         # init camera -- this is pseudo 2D
         self.opts['center'] = QtGui.QVector3D(0, 0, 0)
-        self.setCameraPosition(pos=np.array([0, 0, 0]))
+        self.setCameraPosition(pos=QtGui.QVector3D(0, 0, 0))
         self.opts['elevation'] = 90
         self.opts['distance'] = 35000
         self.opts['azimuth'] = -90 
