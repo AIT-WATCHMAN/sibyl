@@ -165,7 +165,7 @@ class SibylHistogram(gl.GLViewWidget):
     def _init_camera(self):
         # init camera -- this is pseudo 2D
         self.opts['center'] = QVector3D(0, 0, 0)
-        self.setCameraPosition(pos=np.array([0, 0, 0]))
+        self.setCameraPosition(pos=QVector3D(0, 0, 0))
         self.opts['elevation'] = 90
         self.opts['distance']  = 350
         self.opts['fov']       = 1
