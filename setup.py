@@ -3,7 +3,7 @@ import os
 from subprocess import check_output, CalledProcessError
 
 
-VERSION = "0.2.1"
+VERSION = "0.2.2"
 
 try:
     RATROOT = os.environ["RATROOT"]
